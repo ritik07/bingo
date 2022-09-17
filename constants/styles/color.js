@@ -4,5 +4,6 @@ export const GlobalStyles = {
         primary20: "#fff",
         secondary10: "#224870",
         secondary20: "#F3752B",
+        wof: "#8f6deb"
     }
 }

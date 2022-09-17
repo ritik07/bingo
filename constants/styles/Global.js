@@ -30,6 +30,28 @@ export const Global = {
         flexWrap: "wrap",
     },
 
+    generic_card: {
+        position: "relative",
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: "#fff",
+        borderRadius: 6,
+        shadowColor: "#171717",
+        shadowOffset: { width: 0, height: 0 },
+        shadowOpacity: 1,
+        shadowRadius: 8,
+        elevation: 8,
+        justifyContent: 'space-between',
+        paddingLeft: 16,
+        paddingRight: 14,
+        paddingTop: 10,
+        paddingBottom: 10,
+        marginTop: 6,
+        marginBottom: 6,
+        marginLeft: 6,
+        marginRight: 6,
+    },
+
     container: {
         margin: 10
     },
@@ -74,8 +96,32 @@ export const Global = {
         flex: 1
     },
 
+    link_text: {
+        fontWeight: "800",
+        color: "#4EA5D9"
+    },
+
+    input_style: {
+        height: 40,
+        width: 280,
+        borderRadius: 6,
+        margin: 12,
+        borderColor: "#4EA5D9",
+        borderWidth: 1,
+        padding: 10,
+    },
+
     hrz_center: {
         alignItems: 'center',
+    },
+
+    vert_center: {
+        justifyContent: "center",
+        justify: "center"
+    },
+
+    wof: {
+        color: "#8f6deb"
     },
 
     f_w_100: {
@@ -92,6 +138,22 @@ export const Global = {
         fontSize: 15,
         color: "#F3752B",
         fontWeight: "900"
+    },
+
+    height_20: {
+        height: 40
+    },
+
+    font_s_19: {
+        fontSize: 19
+    },
+
+    font_w_700: {
+        fontWeight: 700
+    },
+
+    mt_15: {
+        marginTop: 15
     },
 
     mb_15: {
